@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Trasdosado de fachada abierto">
+  <rect width="640" height="480" fill="#eae7e2"/>
+  <rect x="0.5" y="0.5" width="639" height="479" fill="none" stroke="#cbc6be"/>
+  <g transform="translate(320 212)" fill="none" stroke="#b0aaa1" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-44 -15 h17 l8 -11 h38 l8 11 h17 a7 7 0 0 1 7 7 v40 a7 7 0 0 1 -7 7 h-88 a7 7 0 0 1 -7 -7 v-40 a7 7 0 0 1 7 -7 z"/>
+    <circle cx="0" cy="17" r="16"/>
+  </g>
+  <text x="320" y="304" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#807a72">Trasdosado de fachada abierto</text>
+  <text x="320" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#aaa49b" letter-spacing="1.8">FOTOGRAFÍA DE LA VISITA · DEMOSTRACIÓN</text>
+  <text x="320" y="442" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#bab4ab">06</text>
+</svg>

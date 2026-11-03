@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "Obra": "Reforma integral Passivhaus de vivienda — Pis Eixample",
+    "nombre_obra": "Reforma integral Passivhaus de vivienda — Pis Eixample",
+    "Direccion": "C/ de l'Exemple 12, 3º 1ª",
+    "direccion": "C/ de l'Exemple 12, 3º 1ª",
+    "Municipio": "Barcelona",
+    "municipio": "Barcelona",
+    "Provincia": "Barcelona",
+    "provincia": "Barcelona",
+    "CP": "08011",
+    "cp": "08011",
+    "Promotor": "Propiedad de demostración",
+    "promotor": "Propiedad de demostración",
+    "Arquitecto": "Clara Vidal Soler",
+    "NumColegiado": "00000 (demo)",
+    "ColegioProfesional": "Colegio de Arquitectos (demo)",
+    "email_arquitecto": "direccion.obra@ejemplo.test",
+    "NumLicencia": "OM-2026-000000 (demo)",
+    "num_licencia": "OM-2026-000000 (demo)",
+    "NumExpediente": "EXP-2026-0000 (demo)",
+    "num_expediente": "EXP-2026-0000 (demo)",
+    "empresa_nombre": "Estudio de ejemplo",
+    "empresa_propietaria_nombre": "Estudio de ejemplo",
+    "Fecha": "2026-10-27",
+    "fecha_inicio": "2026-10-27T09:30:00+01:00",
+    "hora_inicio": "09:30",
+    "hora_fin": "10:55",
+    "num_acta": "2026/013",
+    "num_visita": 13,
+    "asistentes": "Clara Vidal Soler (dirección de obra) · Marc Puig (contratista) · Roger Font (carpintería exterior) · Laura Serra (ventilación) · Toni Ferrer (fontanería)",
+    "meteo": { "temperature_2m": 19.2, "weathercode": 1, "windspeed_10m": 10, "precipitation": 0 },
+    "lista_industriales": [
+      { "nombre": "Roger Font",  "especialidad": "Carpintería exterior",        "empresa": "Fusteria Exemple, S.L.",    "contacto": "carpinteria@ejemplo.test",  "estado": true },
+      { "nombre": "Laura Serra", "especialidad": "Ventilación y climatización", "empresa": "Clima Exemple, S.L.",         "contacto": "ventilacion@ejemplo.test",  "estado": true },
+      { "nombre": "Oriol Bas",   "especialidad": "Aislamiento y pladur",        "empresa": "Aïllaments Exemple, S.L.", "contacto": "aislamiento@ejemplo.test",  "estado": true },
+      { "nombre": "Toni Ferrer", "especialidad": "Fontanería",                  "empresa": "Fontaneria Exemple, S.L.",   "contacto": "fontaneria@ejemplo.test",   "estado": true },
+      { "nombre": "Mireia Coll", "especialidad": "Electricidad",                "empresa": "Electricitat Exemple, S.L.",    "contacto": "electricidad@ejemplo.test", "estado": true },
+      { "nombre": "Marc Puig",   "especialidad": "Contratista",                 "empresa": "Reformes Exemple, S.L.",      "contacto": "obra@ejemplo.test",         "estado": true }
+    ]
+  },
+  "tareas_anteriores": [
+    { "descripcion": "Aportar el certificado del triple vidrio con su valor Ug de las carpinterías colocadas.", "responsable": "Roger Font", "empresa": "Fusteria Exemple, S.L.", "prioridad": "media", "estado": "completada", "fecha_limite": "2026-10-23" },
+    { "descripcion": "Entregar el esquema de conductos de ventilación con el caudal de cada estancia.", "responsable": "Laura Serra", "empresa": "Clima Exemple, S.L.", "prioridad": "media", "estado": "pendiente", "fecha_limite": "2026-10-23" },
+    { "descripcion": "Retirar los recortes de placa acumulados en el salón.", "responsable": "Oriol Bas", "empresa": "Aïllaments Exemple, S.L.", "prioridad": "baja", "estado": "completada", "fecha_limite": "2026-10-22" }
+  ],
+  "acta": {
+    "secciones": [
+      {
+        "titulo": "Estado general y avance de los trabajos",
+        "contenido": "Se realiza la decimotercera visita de obra con presencia de la dirección de obra, el contratista y los industriales de carpintería exterior, ventilación y fontanería. La obra acumula un desfase de veintisiete días laborables, imputados en el panel por causa: licencia de obras, cambio de distribución de la cocina solicitado por la propiedad, entrada tardía del industrial de aislamiento, suministro de carpinterías y pasos de ventilación sin sellar.\n\nA fecha de hoy están colocadas todas las carpinterías de la fachada principal y terminadas las instalaciones empotradas. Los trasdosados de fachada permanecen abiertos a la espera del test Blower Door intermedio.\n\nSe recuerda que el objetivo de hermeticidad del proyecto es n50 ≤ 1,0 renovaciones por hora, según el criterio EnerPHit para rehabilitación.",
+        "imagenes": [
+          { "url": "img/foto-01.svg", "pie_foto": "Vista general de la fachada principal con las carpinterías nuevas colocadas." }
+        ]
+      },
+      {
+        "titulo": "Carpinterías exteriores y hermeticidad",
+        "contenido": "Se recibe el certificado del triple vidrio con el valor Ug conforme al proyecto. Queda cerrada esa petición.\n\nEn tres de los siete huecos de fachada falta la cinta de estanqueidad interior en el encuentro de la carpintería con el muro: dormitorio 2, cocina y baño 1. Debe colocarse antes de cerrar ningún trasdosado, ya que estos encuentros forman parte de la barrera hermética.",
+        "imagenes": [
+          { "url": "img/foto-02.svg", "pie_foto": "Ventana del dormitorio 2 sin la cinta de estanqueidad interior en el encuentro con el muro." }
+        ]
+      },
+      {
+        "titulo": "Ventilación mecánica con recuperación de calor",
+        "contenido": "La unidad de ventilación está colocada en el falso techo del baño, en la posición replanteada el 6 de octubre.\n\nLos conductos atraviesan la barrera hermética sin manguitos de estanqueidad. Se indica al industrial de ventilación que los selle antes del test intermedio, ya que en su estado actual el ensayo no superaría el objetivo de proyecto.\n\nSigue pendiente el esquema de conductos con el caudal de cada estancia, solicitado en la visita anterior.",
+        "imagenes": [
+          { "url": "img/foto-03.svg", "pie_foto": "Conducto de ventilación atravesando la barrera hermética sin manguito de estanqueidad." },
+          { "url": "img/foto-04.svg", "pie_foto": "Unidad de ventilación con recuperación de calor en el falso techo del baño." }
+        ]
+      },
+      {
+        "titulo": "Fontanería",
+        "contenido": "En el baño 2, la toma de agua del lavabo no coincide con el mueble de proyecto. Se indica al industrial de fontanería que la desplace 5 cm hacia la izquierda antes del viernes 31 de octubre.",
+        "imagenes": [
+          { "url": "img/foto-05.svg", "pie_foto": "Toma de agua del lavabo del baño 2, con la posición del mueble marcada en la pared." }
+        ]
+      },
+      {
+        "titulo": "Aislamiento y trasdosados",
+        "contenido": "El aislamiento de los muros de fachada está colocado. No se autoriza a cerrar los trasdosados hasta superar el test Blower Door intermedio, para poder localizar y corregir las fugas con la barrera hermética todavía accesible.\n\nEl contratista debe fijar con la empresa certificadora la fecha del ensayo y confirmarla a la dirección de obra esta semana.",
+        "imagenes": [
+          { "url": "img/foto-06.svg", "pie_foto": "Muro de fachada con el aislamiento colocado y el trasdosado todavía abierto." }
+        ]
+      },
+      {
+        "titulo": "Varios y próxima visita",
+        "contenido": "La propiedad solicita valorar el cambio de pavimento del salón, no incluido en el presupuesto aprobado. Se tramitará como presupuesto anexo.\n\nSe envía a la propiedad la actualización del plazo con las demoras imputadas hasta la fecha.\n\nPróxima visita prevista: martes 3 de noviembre a las 09:30 h. Se solicita la presencia de los industriales de ventilación y de aislamiento.",
+        "imagenes": []
+      }
+    ],
+    "tareas": [
+      { "descripcion": "Colocar la cinta de estanqueidad interior en los tres huecos pendientes (dormitorio 2, cocina y baño 1) antes de cerrar trasdosados.", "responsable": "Roger Font", "empresa": "Fusteria Exemple, S.L.", "prioridad": "alta", "estado": "pendiente", "fecha_limite": "2026-10-30", "seccion_titulo": "Carpinterías exteriores y hermeticidad" },
+      { "descripcion": "Sellar con manguitos de estanqueidad los pasos de los conductos de ventilación a través de la barrera hermética.", "responsable": "Laura Serra", "empresa": "Clima Exemple, S.L.", "prioridad": "alta", "estado": "pendiente", "fecha_limite": "2026-10-31", "seccion_titulo": "Ventilación mecánica con recuperación de calor" },
+      { "descripcion": "Entregar el esquema de conductos de ventilación con el caudal de cada estancia. Segunda petición.", "responsable": "Laura Serra", "empresa": "Clima Exemple, S.L.", "prioridad": "media", "estado": "pendiente", "fecha_limite": "2026-10-30", "seccion_titulo": "Ventilación mecánica con recuperación de calor" },
+      { "descripcion": "Desplazar 5 cm hacia la izquierda la toma de agua del lavabo del baño 2 para que coincida con el mueble de proyecto.", "responsable": "Toni Ferrer", "empresa": "Fontaneria Exemple, S.L.", "prioridad": "media", "estado": "pendiente", "fecha_limite": "2026-10-31", "seccion_titulo": "Fontanería" },
+      { "descripcion": "No cerrar los trasdosados de fachada hasta superar el test Blower Door intermedio.", "responsable": "Oriol Bas", "empresa": "Aïllaments Exemple, S.L.", "prioridad": "alta", "estado": "pendiente", "fecha_limite": "2026-11-06", "seccion_titulo": "Aislamiento y trasdosados" },
+      { "descripcion": "Fijar con la empresa certificadora la fecha del test Blower Door intermedio y confirmarla a la dirección de obra.", "responsable": "Marc Puig", "empresa": "Reformes Exemple, S.L.", "prioridad": "alta", "estado": "pendiente", "fecha_limite": "2026-10-30", "seccion_titulo": "Aislamiento y trasdosados" },
+      { "descripcion": "Preparar presupuesto anexo para el cambio de pavimento del salón solicitado por la propiedad.", "responsable": "Marc Puig", "empresa": "Reformes Exemple, S.L.", "prioridad": "baja", "estado": "pendiente", "fecha_limite": "2026-11-10", "seccion_titulo": "Varios y próxima visita" },
+      { "descripcion": "Enviar a la propiedad la actualización del plazo con las demoras imputadas hasta la fecha.", "responsable": "Clara Vidal Soler", "empresa": "Estudio de ejemplo", "prioridad": "media", "estado": "completada", "fecha_limite": "2026-10-27", "seccion_titulo": "Varios y próxima visita" }
+    ]
+  }
+}
